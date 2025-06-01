@@ -1,6 +1,6 @@
 # 🤖 Machine Learning & Deep Learning Projects
 
-This repository contains a collection of five projects that I implemented as part of my learning journey in Machine Learning and Deep Learning. Each project demonstrates a core concept or algorithm, implemented from scratch and compared with results from `scikit-learn` and `Weka`.
+This repository contains a collection of six projects that I implemented as part of my learning journey in Machine Learning and Deep Learning. Each project demonstrates a core concept or algorithm, implemented from scratch and compared with results from `scikit-learn` and `Weka`.
 
 ## 🔍 Machine Learning Projects
 
@@ -21,6 +21,13 @@ This repository contains a collection of five projects that I implemented as par
 - **Goal**: Reduce the dimensionality of the dataset while preserving as much variance as possible.
 - **Implementation**: PCA from scratch using NumPy (eigen decomposition).
 - **Comparison**: Cross-checked with `sklearn.decomposition.PCA` and Weka `filters.unsupervised.attribute.PrincipalComponents`.
+
+### 🟢 4. Single Layer Perceptron
+- **Dataset**: Iris dataset.
+- **Goal**: Binary classification — distinguish Iris-setosa from other species.
+- **Implementation**: From scratchwith activation function.
+- **Comparison**: Cross-checked with `sklearn.linear_model.Perceptron` using te same preprocessed data.
+
 
 ---
 
